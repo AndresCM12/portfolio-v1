@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#6770ec" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://andrescm12-mx.web.app/#work" />
+    <meta property="og:title" content="Portafolio web // Andres CM" />
+    <meta property="og:image" content="./imgs/icon.png" />
+    <meta
+      property="og:description"
+      content="Bienvenido a mi portafolio, aquí encontrarás algunos de mis sideprojects más interesantes"
+    />
+    <meta property="og:site_name" content="Portafolio web // Andres CM" />
+    <meta property="og:locale" content="es_MX" />
+    <title>Portafolio web // Andres CM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./imgs/icon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/swiper.css" />
+    <link rel="stylesheet" href="./styles/scrollbar.css" />
+  </head>
+  <body>
+    <header>
+      <div class="portrait"></div>
+    </header>
+    <main>
+      <div class="profile-img"></div>
+
+      <h1>Andrés Chávez</h1>
+      <p>
+        Frontend Developer
+        <span>
+          <svg
+            width="64"
+            height="64"
+            viewBox="0 0 64 64"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25.0667 44.2667L12.8 32L25.0667 19.7333L21.3333 16L5.33333 32L21.3333 48L25.0667 44.2667ZM38.9333 44.2667L51.2 32L38.9333 19.7333L42.6667 16L58.6667 32L42.6667 48L38.9333 44.2667V44.2667Z"
+            />
+          </svg>
+        </span>
+      </p>
+
+      <h6>Chihuahua, México</h6>
+      <h6><a href="https://github.com/AndresCM12"> https://github.com/AndresCM12</a></h6>
+      <a href="https://www.linkedin.com/in/maltheada/" class="button"> Connect</a>
+    </main>
+
+    <section id="app">
+      <div class="swiper-scrollbar--wrapper">
+        <nav>
+          <p id="pUno">Info</p>
+          <p id="pDos">Work</p>
+          <p id="pTres">About</p>
+        </nav>
+        <!-- If we need scrollbar -->
+        <div id="swiperScrollbar" class="swiper-scrollbar"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="swiper mySwiper">
+
+
+
+
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div data-hash="info" class="swiper-slide">
+            <article class="info-wrapper">
+              <div class="info-card">
+                <h2>Experiencia laboral</h2>
+                <p>
+                  Actualmente trabajo como Frontend Developer
+                </p>
+                <p>
+                  6 meses haciendo landing pages y sitios corporativos
+                </p>
+                <p>
+                  Anteriormente me dedicaba a hacer proyectos de aplicaciones
+                  móviles nativas
+                </p>
+              </div>
+
+              <div class="info-card">
+                <h2>¿Qué es esto?</h2>
+                <p>
+                  Es mi portafolio, aquí encontrarás mis trabajos más recientes,
+                  interesantes y diseñados y programados por mí
+                </p>
+              </div>
+              <div class="info-card">
+                <h2>Mi filosofía</h2>
+                <p>
+                  Me gusta mantener las cosas lo más simples y limpias. Siempre orientado a resultados y a satisfacer las
+                  necesidades del cliente
+                </p>
+                <p>
+                  Buena ética profesional y
+                  habilidades blandas
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <div data-hash="work" class="swiper-slide">
+            <div class="slider-background"></div>
+            <article class="work-wrapper">
+
+              <a href="./apps/scanner.apk" download="scanner" style="width: 100%;">
+              <div class="work-card scanner">
+                <div class="text-wrapper">
+                  <p class="title">Escaner de códgios QR</p>
+                  <p class="subtitle">
+                    Utilizando: MapBox API, Angular, Ionic
+                    <!-- <a href="https://petcat-api.web.app">Ir a la página</a> -->
+                  </p>
+                </div>
+              </div>
+            </a>
+
+              <a href="./apps/news.apk" download="news" style="width: 100%;">
+              <div class="work-card news">
+                <div class="text-wrapper">
+                  <p class="title">App de noticias</p>
+                  <p class="subtitle">
+                    Utilizando: NewsAPI, Angular, Ionic
+                  </p>
+
+                </div>
+              </div>
+            </a>
+
+              <div class="work-card cat">
+                <div class="text-wrapper">
+                  <p class="title">Instagram de michis</p>
+                  <p class="subtitle">
+                    Utilizando: CatApi, SPA JS Vanilla
+                    <!-- <a href="https://petcat-api.web.app">Ir a la página</a> -->
+                  </p>
+                </div>
+              </div>
+
+              <div class="work-card movies">
+                <div class="text-wrapper">
+                  <p class="title">Cartelera de películas</p>
+                  <p class="subtitle">
+                    Utilizando: MovieDBApi, SPA JS Vanilla
+                    <!-- <a href="https://movies-prueba-api.web.app"
+                      >Ir a la página</a
+                    > -->
+                  </p>
+                </div>
+              </div>
+
+              <div class="work-card rickandmorty">
+                <div class="text-wrapper">
+                  <p class="title">Wiki de Rick and morty</p>
+                  <p class="subtitle">
+                    Utilizando: Rick/MortyApi, PWA, SPA JS Vanilla
+                    <!-- <a href="https://rickandmorty-api-app.web.app"
+                      >Ir a la página</a
+                    > -->
+                  </p>
+                </div>
+              </div>
+
+              <article class="info-wrapper">
+                <h2>No sólo side projects</h2>
+                <p>
+                  Además cuento con experiencia y proyectos realizados como: landingPages, sitios corporativos, 
+                  aplicaciones móviles híbridas, aplicaciones web y comercios electrónicos. 
+                  Pero por acuerdos de privacidad y no dañar el tráfico de esos proyectos, no los incluyo
+                </p>
+              </article>
+            </article>
+          </div>
+
+          <div data-hash="about" class="swiper-slide">
+            <div class="slider-background"></div>
+
+            <article class="about-wrapper">
+              <div class="about-card">
+                <h2>Tecnologías</h2>
+                <h3>Development</h3>
+                <p>Angular</p>
+                <p>Ionic</p>
+                <p>TypeScript</p>
+                <p>Js Vanilla (ES 6+)</p>
+                <p>HTML, CSS, SCSS</p>
+                <p>SPA & PWA</p>
+
+                <h3>Design</h3>
+                <p>Figma</p>
+
+                <h3>Deploy</h3>
+                <p>Firebase</p>
+                <p>PlayStore</p>
+
+                <h3>Version controll</h3>
+                <p>Github & Sourcetree</p>
+
+                <h3>Testing</h3>
+                <p>Unit Testing (Jasmine, karma)</p>
+                <p>Integration Testing (Jasmine, karma)</p>
+                <p>e2e Testing (Cypress, mocha)</p>
+
+              </div>
+              <div class="about-card">
+                <h2>Aprendiendo</h2>
+                <p>React</p>
+                <p>Inglés</p>
+                <p>Web components</p>
+                <p>Accesibilidad web</p>
+                <p>Habilidades blandas</p>
+              </div>
+              <div class="about-card">
+                <h2>Educación</h2>
+                <p>
+                  <h3>Universitaria</h3>
+                  <p>Ingeniero en Sistemas Computacionales</p>
+                  <h3>Medio superior</h3>
+                  <p>Técnico en programación</p>
+                  <h3>Autodidacta</h3>
+                  <p>Platzi</p>
+                  <p>Udemy</p>
+                  <p>Documentación</p>
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <!-- <footer>
+      <div class="footer-wrapper"></div>
+
+    </footer> -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./source/swiper.js"></script>
+    <script type="module" src="./source/index.js"></script>
+    <script type="module" src="./source/cards.js"></script>
+  </body>
+</html>

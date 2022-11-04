@@ -1,0 +1,39 @@
+Estado inicial del juego:
+
+   const player1 = 1
+    const player2 = 2
+
+
+    async returnWinner () => {
+        const player1Score = 0;
+        const player2Score = 0;
+
+        if(await seFormaUnCuadradoDe1()){
+            player1Score += 1
+        }
+        if(await seFormaUnCuadradoDe2()){
+            player2Score += 1
+        }
+
+        player1Score > player2Score ? return "player1" : return "player2"
+    } 
+
+    async seFormaUnCuadradoDe1(){//TODO}
+    async seFormaUnCuadradoDe2(){//TODO}
+
+   let winner = await returnWinner()
+
+   let board = ["*", " ", "*", " ", "*", " ", "*", " ", "*",
+             " ", " ", " ", " ", " ", " ", " ", " ", " ",
+             "*", " ", "*", " ", "*", " ", "*", " ", "*",
+             " ", " ", " ", " ", " ", " ", " ", " ", " ",
+             "*", " ", "*", " ", "*", " ", "*", " ", "*",
+             " ", " ", " ", " ", " ", " ", " ", " ", " ",
+             "*", " ", "*", " ", "*", " ", "*", " ", "*",
+             " ", " ", " ", " ", " ", " ", " ", " ", " ",
+             "*", " ", "*", " ", "*", " ", "*", " ", "*", ]
+
+Basicamente esa sería la estrucutra del timbiriche, se estaría detectando cada vez que un jugador 
+pone una linea en un espacio en blanco, si hay 1 significa que el jugador 1 puso la linea, si hay 
+un 2 que el jugador 2 puso la linea. Después se llama un método que está verificando cuál fue el último
+jugador que puso una línea y se le agrega un punto, al final se compara cuál de los dos tiene más score y se detecta el ganador
